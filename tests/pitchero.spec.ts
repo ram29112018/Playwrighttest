@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test('test', async ({ page }) => {
   await page.goto('https://www.pitchero.com/');
   await page.getByRole('link', { name: 'Login' }).getByRole('button').click();
-  await page.pause();
+  //await page.pause();
   //await page.getByLabel('Email address').click();
   //await page.getByLabel('Password').click();
  // await page.getByLabel('Email address').click();
